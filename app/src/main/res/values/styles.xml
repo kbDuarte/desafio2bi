@@ -1,0 +1,8 @@
+<resources>
+    <style name="Theme.MinhaLoja" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#315BCE</item>
+        <item name="colorPrimaryVariant">#2345A0</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#315BCE</item>
+    </style>
+</resources>
