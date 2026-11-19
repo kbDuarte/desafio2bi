@@ -1,8 +1,10 @@
 <resources>
     <style name="Theme.MinhaLoja" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <item name="colorPrimary">#315BCE</item>
-        <item name="colorPrimaryVariant">#2345A0</item>
+        <item name="colorPrimary">#C62828</item>
+        <item name="colorPrimaryVariant">#8E1717</item>
         <item name="colorOnPrimary">#FFFFFF</item>
-        <item name="colorSecondary">#315BCE</item>
+        <item name="colorSecondary">#D32F2F</item>
+        <item name="android:statusBarColor">#8E1717</item>
+        <item name="android:navigationBarColor">#8E1717</item>
     </style>
 </resources>
