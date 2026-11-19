@@ -61,6 +61,7 @@ class ProdutosActivity : AppCompatActivity() {
             "titulo" to produto.title,
             "preco" to produto.price,
             "categoria" to produto.category,
+            "imagem" to produto.image,
             "salvoEm" to FieldValue.serverTimestamp()
         )
         db.collection("usuarios").document(uid).collection("favoritos")
