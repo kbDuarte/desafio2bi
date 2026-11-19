@@ -44,7 +44,8 @@ class FavoritosActivity : AppCompatActivity() {
                 val produtos = resultado.documents.mapNotNull { doc ->
                     val id = (doc.getLong("id") ?: return@mapNotNull null).toInt()
                     Produto(id, doc.getString("titulo") ?: "", doc.getDouble("preco") ?: 0.0,
-                        doc.getString("categoria") ?: "")
+                        doc.getString("categoria") ?: "",
+                        doc.getString("imagem") ?: "")
                 }
                 adapter.atualizar(produtos)
                 mensagem.text = if (produtos.isEmpty()) "Nenhum favorito salvo." else ""
